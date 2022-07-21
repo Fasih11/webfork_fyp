@@ -10,25 +10,17 @@
     scroll-behavior: smooth;
 }
 
-
-.logo{
-    background-color: orangered;
-    width: 58px;
-    border-radius: 20px;
-    overflow: hidden;
+.logo h1{
+    margin-right: 100px;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
     cursor: pointer;
-    position: relative;
-    right: 2vmax;
+
 }
 
-#logoImage{
-    transition:all 0.2s;
-    transform: translateX(-58px);
-}
-
-#logoImage:hover{
-  
-    transform: translateX(0);
+.logo:hover{
+    color: orange;
 }
 
 .navlinks{
