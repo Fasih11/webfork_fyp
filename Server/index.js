@@ -49,7 +49,7 @@ server.use(
 );
 server.use(helmet());
 
-let port = process.env.PORT || process.env._ALT_PORT;
+let port = process.env.PORT || process.env._ALT_PORT || 3001;
 
 server.use(jwtCheck);
 
