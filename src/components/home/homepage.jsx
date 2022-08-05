@@ -32,6 +32,7 @@ function HomePage() {
 
 
       <Whatsapp />
+      {/* added footer data */}
 
       <Footer footer={data.footer} />
      
