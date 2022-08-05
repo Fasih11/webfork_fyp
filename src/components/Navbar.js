@@ -39,7 +39,7 @@ const Navbar = () => {
       <a className="navlinks" href="/#">
         Contact Us
       </a>
-      <a className="navlinks" href="/#">
+      <a className="navlinks" href="/FAQ">
         FAQ
       </a>
       <Link className="navlinks" to={"/Blogs"}>

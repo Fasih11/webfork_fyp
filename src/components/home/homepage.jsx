@@ -27,7 +27,7 @@ function HomePage() {
       <Heading text="Contact Us" />
       <Contact />
 
-      <Heading text="Faq" />
+      <Heading text="FAQ" />
       <Faq /> 
 
 
