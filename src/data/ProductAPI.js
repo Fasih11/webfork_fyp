@@ -4,7 +4,7 @@ const Menu = [
     image: "/images/screenshot.png",
     name: "Gym-Free",
     category: "Gym",
-    price: 50,
+    price: 0,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
     qty: 1,
@@ -12,7 +12,7 @@ const Menu = [
 
   {
     id: 2,
-    image: "/images/screenshot.png",
+    image: "/images/screenshot.png",  
     name: "Gym-Premium",
     category: "Gym",
     price: 350,
@@ -23,10 +23,10 @@ const Menu = [
 
   {
     id: 3,
-    image: "/images/screenshot.png",
+    image: "/images/screenshot_1.png",
     name: "Ecommerce-Free",
     category: "Ecommerce",
-    price: 250,
+    price: 0,
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
@@ -34,7 +34,7 @@ const Menu = [
 
   {
     id: 4,
-    image: "/images/screenshot.png",
+    image: "/images/screenshot_1.png",
     name: "Ecommerce-Premium",
     category: "Ecommerce",
     price: 150,
@@ -45,10 +45,10 @@ const Menu = [
 
   {
     id: 5,
-    image: "/images/screenshot.png",
+    image: "/images/screenshot_1.png",
     name: "Restaurant-Free",
     category: "Restaurant",
-    price: 550,
+    price: 0,
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
@@ -70,7 +70,7 @@ const Menu = [
     image: "/images/screenshot.png",
     name: "Construction-Free",
     category: "Construction",
-    price: 550,
+    price: 0,
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
@@ -92,7 +92,7 @@ const Menu = [
     image: "/images/screenshot.png",
     name: "Charity-Free",
     category: "Charity",
-    price: 350,
+    price: 0,
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",

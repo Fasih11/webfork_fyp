@@ -3,6 +3,7 @@ import useCartStore from "../store/cartStore/CartStore";
 import axios from "axios";
 import useCartPageStore from "../store/CartpageStore/CartPageStore";
 import { useAuth0 } from "@auth0/auth0-react";
+import { Link } from "react-router-dom";
 const MenuCard = ({ menuData }) => {
   const { getAccessTokenSilently, loginWithPopup, isAuthenticated } =
     useAuth0();
@@ -38,7 +39,7 @@ const MenuCard = ({ menuData }) => {
       } else {
         loginWithPopup();
       }
-    }, 2000);
+    },2000);
   };
   return (
     <>
@@ -66,18 +67,27 @@ const MenuCard = ({ menuData }) => {
                   />
 
                   <span className="card-tag subtle">
-                    <a
-                      href={() =>
-                        isAuthenticated &&
-                        `https://drive.google.com/u/0/uc?id=1PveLwbsppBvSx43kwKBtTJaPo2RoG57D&export=download`
+                    <Link
+                      to={
+                        `/cart`
                       }
-                      target=""
-                      rel={"noreferrer"}
                       onClick={(e) => HandleCart(curElem)}
                     >
-                      Download Now
-                    </a>
+                      Add To Cart
+                    </Link>
                   </span>
+
+                  <span className="card-tag-view subtle">
+                    <Link
+                      to={
+                        `/preview`
+                      }
+                      onClick={(e) => HandleCart(curElem)}
+                    >
+                      Complete View
+                    </Link>
+                  </span>
+
                 </div>
               </div>
             </>

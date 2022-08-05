@@ -1,7 +1,7 @@
-import React from 'react'
-import "../styles/Nav.css"
-import logo from '../images/logo.png'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "../styles/Nav.css";
+import logo from "../images/logo.png";
+import { Link } from "react-router-dom";
 
 const searchIcon = (
   <svg
@@ -19,35 +19,38 @@ const searchIcon = (
 const Navbar = () => {
   return (
     <div className="nav">
+      <div className="logo"></div>
+
       <div className="logo">
-        {/* <a href="/">
-          <img src={image}  alt="Not" />
-        </a> */}
-        {/* <h1>WF</h1> */}
+        <a href="/">
+          <img src={logo} className="logo-img" />
+        </a>
       </div>
 
-            <div className="logo">
-               
-             <a href="/">
-                  <img src={logo} className="logo-img"/>
-             </a>
+      <a className="navlinks" href="/#">
+        Home
+      </a>
+      <a className="navlinks" href="#Categories">
+        Categories
+      </a>
+      <a className="navlinks" href="#About">
+        About Us
+      </a>
+      <a className="navlinks" href="/#">
+        Contact Us
+      </a>
+      <a className="navlinks" href="/#">
+        FAQ
+      </a>
+      <Link className="navlinks" to={"/Blogs"}>
+        Blogs
+      </Link>
+      <div className="searchbox">
+        <input type="text" name="search" placeholder="Search Products" />
+        {searchIcon}
+      </div>
+    </div>
+  );
+};
 
-             </div>
-
-           <a   className="navlinks" href="/#">Home</a>
-           <a   className="navlinks" href="#Categories">Categories</a>
-           <a   className="navlinks" href="#About">About Us</a>
-           <a   className="navlinks" href="/#">Contact Us</a>
-           <a   className="navlinks" href="/#">FAQ</a>
-           <Link   className="navlinks" to={"/Blogs"}>Blogs</Link>
-           <div className="searchbox">
-              <input type="text" name="search"  placeholder="Search Products"/>
-              {searchIcon}
-
-          </div>
-            
-           </div>
-    )
-}
-
-export default Navbar
+export default Navbar;

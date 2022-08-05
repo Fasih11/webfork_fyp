@@ -4,10 +4,15 @@ import { persist, devtools } from "zustand/middleware";
 // define the store
 let cartStore = (set) => ({
   CartState: [],
+  previewState:{},
+  showPreview: (payload) => set(state =>{
+
+  }),
   addCarts: (paylaod) =>
     set(
       produce((draft) => {
         draft.CartState.push(paylaod);
+        draft.previewState = paylaod;
       }),
     ),
   removeCart: (payload) =>
@@ -20,8 +25,8 @@ let cartStore = (set) => ({
 });
 
 cartStore = devtools(cartStore, {});
-cartStore = persist(cartStore, {
-  name: "cart",
-});
+// cartStore = persist(cartStore, {
+//   name: "cart",
+// });
 export const useCartStore = create(cartStore);
 export default useCartStore;

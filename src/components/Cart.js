@@ -45,7 +45,7 @@ const Cart = () => {
                 <Col md={2}>
                   <span>{Cart?.name}</span>
                 </Col>
-                <Col md={2}>₹ {Cart?.price}</Col>
+                <Col md={2}>Rs {Cart?.price}</Col>
                 <Col md={2}>{/* <Rating rating={Cart.ratings} /> */}</Col>
                 <Col md={2}>
                   {/* <Form.Control

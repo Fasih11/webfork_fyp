@@ -40,3 +40,48 @@ hr{
     background-color: orange !important;
     border-radius: 50% !important;
 }
+
+/* @media only screen and (max-width:768px){
+    .hero{
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+    }
+    .heading{
+        font-size:30px;
+    }
+    hr{
+        display: none;
+    }
+    .image{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .hero{
+        overflow: hidden;
+    }
+    .heading{
+        font-size:20px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .hero{
+        overflow: hidden;
+    }
+    .heading{
+        font-size:15px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .hero{
+        overflow: hidden;
+    }
+    .heading{
+        font-size:10px;
+    }
+} */

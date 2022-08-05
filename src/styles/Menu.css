@@ -98,18 +98,36 @@
   }
   
   .card-tag {
-    margin-left: 135px;
+    margin-left: 55px;
     border: 1px solid #aaa;
     padding: 5px 10px;
     cursor: pointer;
   }
-  
+
   .card-tag:hover {
     background: #aaa;
     color: black;
   }
   
   .card-tag a{
+    text-decoration: none;
+    color:cyan;
+  }
+
+  .card-tag-view{
+    margin-left: 35px;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .card-tag-view:hover {
+    background: #aaa;
+    color: black;
+  }
+  
+  .card-tag-view a{
     text-decoration: none;
     color:cyan;
   }

@@ -8,6 +8,7 @@ import Whatsapp from "../Whatsapp";
 import Contact from "../Contact";
 import Card from "../Card";
 import Product from "../Product";
+import Faq from "../Faq";
 
 function HomePage() {
   return (
@@ -19,16 +20,21 @@ function HomePage() {
 
       <Heading text="WebFork Categories" />
       <Product />
+      
       <Heading text="About Us" />
       <About />
 
       <Heading text="Contact Us" />
-
       <Contact />
+
+      <Heading text="Faq" />
+      <Faq /> 
+
 
       <Whatsapp />
 
       <Footer footer={data.footer} />
+     
     </>
   );
 }

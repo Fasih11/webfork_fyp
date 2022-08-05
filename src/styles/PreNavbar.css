@@ -39,3 +39,28 @@
 .preNav > div > a:hover{
     color: white;
 }
+
+@media only screen and (max-width:768px){
+    .preNav{
+        overflow: hidden;
+    }  
+}
+
+@media only screen and (max-width:425px){
+    .preNav{
+        overflow: hidden;
+    }  
+}
+
+@media only screen and (max-width:375px){
+    .preNav{
+        overflow: hidden;
+    }  
+}
+
+@media only screen and (max-width:320px){
+    .preNav{
+        overflow: hidden;
+        display: block;
+    }  
+}

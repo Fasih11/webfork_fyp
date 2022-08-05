@@ -13,7 +13,7 @@ const Blogs = () => {
     <div class="card__body_blogs">
       <span class="tag tag-blue_blogs">Website</span>
       <h4>How to Install a WordPress Plugin </h4>
-      <p>The easiest way of installing a WordPress plugin is to use the plugin search. The only downside of this option is that a plugin must be in the WordPress plugin directory which is limited to only free plugins.First thing you need to visit the Plugins » Add New page inside your WordPress admin area.</p>
+      <p>The easiest way of installing a WordPress plugin is to use the plugin search. The only downside of this option is that a plugin must be in the WordPress plugin directory which is limited to only free plugins.First thing you need to visit the Plugins » Add New page inside your WordPress admin area.</p> 
     </div>
     <div class="card__footer_blogs">
       <div class="user_blogs">

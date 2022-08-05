@@ -54,3 +54,34 @@
 .searchbox > svg{
     fill: rgb(61, 61, 61);
 }
+
+    @media only screen and (max-width:768px){
+        .nav{
+            overflow: hidden;
+        }
+    }
+
+    @media only screen and (max-width:425px){
+        .nav{
+            overflow: hidden;
+        }
+        .searchbox{
+            display: none;
+        }
+        .logo-img{
+            height: 50px;
+            width:  50px;
+        }
+    }
+
+    @media only screen and (max-width:375px){
+        .nav{
+            overflow: hidden;
+        }
+    }
+
+    @media only screen and (max-width:320px){
+        .nav{
+            overflow: hidden;
+        }
+    }
