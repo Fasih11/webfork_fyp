@@ -13,6 +13,10 @@ const MenuCard = ({ menuData }) => {
   const addToCartStore = (payload) => [addCarts(payload)];
   const addToCartPageStore = (payload) => addCartPage(payload);
 
+  const addToPreview = (payload) => {
+    addCarts(payload)
+  }
+
   const HandleCart = async (Cart) => {
     setTimeout(async () => {
       if (isAuthenticated) {
@@ -82,7 +86,7 @@ const MenuCard = ({ menuData }) => {
                       to={
                         `/preview`
                       }
-                      onClick={(e) => HandleCart(curElem)}
+                      onClick={(e) => addToPreview(curElem)}
                     >
                       Complete View
                     </Link>

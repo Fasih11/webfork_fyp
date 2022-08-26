@@ -9,6 +9,7 @@ import Cart from "./components/Cart";
 import Navbar from "./components/Navbar";
 import PreNavbar from "./components/PreNavbar";
 import useCartPageStore from "./store/CartpageStore/CartPageStore";
+import Preview from "./components/Preview";
 
 function App() {
   const { getAccessTokenSilently, isAuthenticated, user } = useAuth0();
@@ -54,6 +55,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/Blogs" element={<Blogs />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/preview" element={<Preview/>}/>
       </Routes>
     </BrowserRouter>
   );

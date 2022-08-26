@@ -8,6 +8,7 @@ const Menu = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
     qty: 1,
+    // pdfpath:"path"
   },
 
   {
