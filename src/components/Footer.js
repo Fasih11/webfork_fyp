@@ -100,7 +100,7 @@ const Footer = ({footer}) => {
             <br /> 10-Days easy placement policy on WebFork.com
           </p>
         </div>
-
+        
         <div>
           {shieldIcon}
           <p>
@@ -122,13 +122,13 @@ const Footer = ({footer}) => {
       </div>
 
       <div className="PreFooter2">
-        <div>
+        <div className="footer-touch">
           <p>LET'S STAY IN TOUCH</p>
           <span>Get special updates on sales special and more</span>
         </div>
 
         <div>
-          <div>
+          <div className="footer-box">
             <input
               type="email"
               name="email"
@@ -138,7 +138,7 @@ const Footer = ({footer}) => {
           </div>
         </div>
 
-        <div>
+        <div className="footer-follow">
           <p>FOLLOW WebFork</p>
           <span>We want to hear from you!</span>
         </div>

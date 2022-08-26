@@ -110,3 +110,48 @@ fill: rgb(34, 34, 34);
   .PreFooter2 > div:nth-child(4) > svg:hover{
     fill: rgb(94,94,94);
   }
+
+  @media only screen and (max-width: 768px) {
+    .footer-box{
+      display: none;
+    }
+    .footer-touch{
+      margin-left: 100px;
+    }
+    .footer-follow{
+      margin-right: 150px;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .footer-touch{
+      margin-left:17px;
+    }
+    .footer-follow{
+      margin-right:60px;
+    }
+    .PreFooter{
+      display: none;
+    }
+
+  }
+  
+  @media only screen and (max-width:375px){
+    .footer-touch{
+      margin-left:25px;
+    }
+    .footer-follow{
+      margin-right:38px;
+    }
+ 
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .footer-touch{
+      margin-left:25px;
+    }
+    .footer-follow{
+      margin-right:38px;
+    }
+  
+  }

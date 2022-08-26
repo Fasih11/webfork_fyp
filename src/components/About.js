@@ -33,9 +33,11 @@ const About = () => {
           efficiency through subscription or merely visiting the site to see
           what offers it has.
         </h3>
+
+        <div className="about-btn">
         <a href="/#" className="btn"><span>Projects</span></a>
         <a href="/#" className="btn" id="button-margin"><span>Team</span></a>
-
+        </div>
       </div>
     </div>
   );

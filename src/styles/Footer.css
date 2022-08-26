@@ -70,3 +70,27 @@
     padding: 2vmax;
     font-size: 0.98vmax;
 }
+
+@media only screen and (max-width: 768px) {
+    .Footer p{
+        font-size: 10px;
+    }
+
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .Footer p{
+        font-size: 8px;
+    }
+  }
+  
+  @media only screen and (max-width:375px){
+    .Footer p{
+        font-size: 6px;
+    }
+ 
+  }
+  
+  @media only screen and (max-width: 320px) {
+  
+  }

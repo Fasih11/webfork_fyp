@@ -13,7 +13,7 @@ import Faq from "../Faq";
 function HomePage() {
   return (
     <>
-      <Hero />
+       <Hero />
 
       <Heading text="WebFork Features" />
       <Card />
@@ -28,10 +28,11 @@ function HomePage() {
       <Contact />
 
       <Heading text="FAQ" />
-      <Faq /> 
+      <Faq />
 
 
       <Whatsapp />
+
       {/* added footer data */}
 
       <Footer footer={data.footer} />

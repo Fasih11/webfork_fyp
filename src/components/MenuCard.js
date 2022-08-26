@@ -91,7 +91,6 @@ const MenuCard = ({ menuData }) => {
                       Complete View
                     </Link>
                   </span>
-
                 </div>
               </div>
             </>
