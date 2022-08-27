@@ -1,10 +1,9 @@
-import React from 'react'
-import "../styles/Whatsapp.css"
+import React from "react";
 
 const Whatsapp = () => {
   return (
-    <div>
-               {/* WhatsApp icon */}
+    <>
+      {/* WhatsApp icon */}
       <a
         href="https://wa.me/+923174426674"
         class="whatsapp_float"
@@ -13,8 +12,8 @@ const Whatsapp = () => {
       >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a>
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default Whatsapp
+export default Whatsapp;

@@ -10,12 +10,15 @@ import Navbar from "./components/Navbar";
 import PreNavbar from "./components/PreNavbar";
 import useCartPageStore from "./store/CartpageStore/CartPageStore";
 import Preview from "./components/Preview";
+import Tabs from "./components/Tabs";
+import Submit from "./components/Submit";
+import Team from "./components/Team";
 
 function App() {
   const { getAccessTokenSilently, isAuthenticated, user } = useAuth0();
   const addCartPage = useCartPageStore((state) => state?.addCartPage);
   const CartPageStoreObject = useCartPageStore(
-    (state) => state?.CartPageStoreObject,
+    (state) => state?.CartPageStoreObject
   );
   useEffect(() => {
     const addToCartPageStore = (payload) => addCartPage(payload);
@@ -33,7 +36,7 @@ function App() {
             headers: {
               authorization: `Bearer ${token}`,
             },
-          },
+          }
         );
 
         response?.data?.forEach((element) => {
@@ -49,13 +52,17 @@ function App() {
 
   return (
     <BrowserRouter>
-    <PreNavbar />
-    <Navbar />
+      <PreNavbar />
+      <Navbar />
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Blogs" element={<Blogs />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/preview" element={<Preview/>}/>
+        <Route path="/preview" element={<Preview />} />
+        <Route path="/FAQ" element={<Tabs />} />
+        <Route path="/Submit" element={<Submit />} />
+        <Route path="/Team" element={<Team />} />
       </Routes>
     </BrowserRouter>
   );

@@ -3,18 +3,10 @@ import "../styles/About.css"
 
 const About = () => {
   return (
-    <div className="container-about" id="About">
-      <div className="left">
-        <img
-          src={
-            "https://png.pngtree.com/png-vector/20200428/ourlarge/pngtree-illustration-of-a-man-working-on-a-laptop-png-image_2195561.jpg"
-          }
-          alt=""
-        />
-      </div>
-
-      <div className="right">
-        <h3>
+    <div class="about-section">
+      <div class="inner-container">
+        <h1>Introduction</h1>
+        <p class="text">
           WebFork has started its journey with the promise to be the hub of the
           best templates in early 2022. Our creative designers and dedicated
           developers work with the soul to develop high-quality themes and
@@ -32,11 +24,11 @@ const About = () => {
           in the Bootstrap market. So come and join our venture toward
           efficiency through subscription or merely visiting the site to see
           what offers it has.
-        </h3>
-
-        <div className="about-btn">
-        <a href="/#" className="btn"><span>Projects</span></a>
-        <a href="/#" className="btn" id="button-margin"><span>Team</span></a>
+        </p>
+        <div class="skills">
+          <span>Web Design</span>
+          <span>Photoshop & Illustrator</span>
+          <span>Coding</span>
         </div>
       </div>
     </div>

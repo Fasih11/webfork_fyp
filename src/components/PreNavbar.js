@@ -39,6 +39,7 @@ const PreNavbar = () => {
         <a href="/#">WebFork</a> <span>|</span>
         <a href="/#">GET Latest Update</a> <span>|</span>
         <a href="#contact">ONLINE HELP</a> <span>|</span>
+        <a href="/Submit">Submit a Template</a>
         <a href="#categories">Check Tamplates ﹀</a>
       </div>
       <div>

@@ -6,30 +6,30 @@ import Footer from "../Footer";
 import About from "../About";
 import Whatsapp from "../Whatsapp";
 import Contact from "../Contact";
-import Card from "../Card";
 import Product from "../Product";
-import Faq from "../Faq";
+import Team from "../Team";
+import ChooseUs from "../ChooseUs";
+
 
 function HomePage() {
   return (
     <>
        <Hero />
 
-      <Heading text="WebFork Features" />
-      <Card />
+      <Heading text="WebFork Team" />
+      <Team />
 
-      <Heading text="WebFork Categories" />
+      <Heading text="WebFork Features" />
+      <ChooseUs />
+
+       <Heading text="WebFork Categories" />
       <Product />
       
-      <Heading text="About Us" />
+     <Heading text="About Us" />
       <About />
 
-      <Heading text="Contact Us" />
+       <Heading text="Contact Us" />
       <Contact />
-
-      <Heading text="FAQ" />
-      <Faq />
-
 
       <Whatsapp />
 

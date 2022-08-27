@@ -195,7 +195,7 @@ const Footer = ({footer}) => {
 
         <div>
         <p> ABOUT US </p>
-        <a href="/#">Team</a>
+        <a href="/Team">Team</a>
         <a href="/#">Projects</a>
         <a href="/#">Portfolio</a>
         <a href="/#">Client</a>

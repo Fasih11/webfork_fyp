@@ -97,10 +97,6 @@
   }
 }
 
-/*@media only screen and (max-width:375px){
-
-} */
-
 @media only screen and (max-width: 320px) {
   cards-child {
     width: 100%;

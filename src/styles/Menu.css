@@ -7,6 +7,8 @@
   grid-template-columns: repeat(3, minmax(300px, 500px));
   grid-gap: 50px;
   justify-content: space-between;
+  /* height: 2600px; */
+  /* margin-bottom: 200px; */
 }
 
 .card-container {
@@ -16,7 +18,7 @@
   grid-template-columns: 1fr;
   justify-content: space-around;
   align-items: flex-start;
-  height: 470px;
+  /* height: 470px; */
   margin-top: 30px;
 }
 
@@ -179,7 +181,7 @@
 }
 .btn-group__item {
   border: none;
-  /* min-width: 6rem; */
+  min-width: 6rem;
   padding: 1.5rem 3rem;
   background-color: rgb(255, 255, 255);
   cursor: pointer;

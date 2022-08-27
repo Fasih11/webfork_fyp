@@ -1,86 +1,75 @@
-.container-about{
-    display: flex;
-    justify-content: space-evenly;
-    /* align-items: center; */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",sans-serif;
+  box-sizing: border-box;
 }
 
-.left img{
-    height: 450px;
-    width: 600px;
-    margin-left: 20px;
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
 }
 
-.right h3{
-    margin-left: 20px;
-    text-align: justify;
-    font-family: Nunito Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-    color:#344050;
-    margin-right: 30px;
-    line-height: 1.5;
+.about-section{
+  background: url("../images/about.jpg") no-repeat left;
+  background-size: 55%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0;
 }
 
-.about-btn{
-  margin-top: 20px;
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
 }
 
-.btn {
-  font-family: 'Open Sans';
-  color: #ffffff;
-  text-decoration: none;
-  background: #ed3330;
-  padding: 20px;
-  width: 100px;
-  border-radius: 15px;
-  display: inline-block;
-  border: none;
-  transition: all 0.4s ease 0s;
-  margin-left: 60px;
-  text-align: center;
-  }
-  
-  .btn:hover {
-    background: #434343;
-    letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
-  }
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
 
-  #button-margin{
-    margin-left: 150px;
-  }
+.text{
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
 
-  @media only screen and (max-width: 768px) {
-    .left{
-      display: none;
-    }
-    .about-btn{
-      margin-left: 174px;
-    }
-  }
-  
-  @media only screen and (max-width: 425px) {
-    .about-btn{
-      margin-left:-22px;
-    }
-  }
-  
-  @media only screen and (max-width:375px){
-    .about-btn{
-      margin-left:-50px;
-    }
-  }
-  
-  @media only screen and (max-width: 320px) {
-    .about-btn{
-      margin-left:-5s0px;
-    }
-    .btn {
-      display: none;
-      }
-      
-    
-  }
+.skills{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
 
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding: 80px;
+  }
+}
 
+@media screen and (max-width:1000px){
+  .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+  }
+  .inner-container{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .about-section{
+      padding: 0;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+}
