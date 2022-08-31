@@ -1,14 +1,15 @@
 const Menu = [
   {
     id: 1,
-    image: "/images/screenshot.png",
+    image: "/images/gym.jpg",
     name: "Gym-Free",
     category: "Gym",
     price: 0,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
+      "This free gym template is based on the registration form of the gym website where user can register itself!",
     qty: 1,
-    // pdfpath:"path"
+    preview:"/images/gym.jpg",
+    pdfpath:"https://drive.google.com/file/d/1JMgY-VfXnVKWQydlXx_k8tEbE53vfvZb/view?usp=sharing"
   },
 
   {
@@ -19,7 +20,9 @@ const Menu = [
     price: 350,
     qty: 1,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
+      "This Gym Template is based on all the front-end needs of the users where user can see about the gym ",
+      preview:"/images/business_portfolio.jpeg",
+      pdfpath:"https://drive.google.com/file/d/1o8rNAZsA3ypF7HT-vGqhHjkZGwH72p-U/view?usp=sharing"
   },
 
   {
@@ -31,6 +34,8 @@ const Menu = [
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
+      preview:"/images/business_portfolio.jpeg",
+      pdfpath:"https://drive.google.com/file/d/1GVUetLIWf8OgkxbXTDTob_8795M3UK1D/view?usp=sharing"
   },
 
   {
@@ -42,6 +47,8 @@ const Menu = [
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
+      preview:"/images/business_portfolio.jpeg",
+      pdfpath:"https://drive.google.com/file/d/1ObfhLe3Y78XE-PDpXJoCsWqqv96xC3L6/view?usp=sharing"
   },
 
   {
@@ -53,6 +60,8 @@ const Menu = [
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
+      preview:"/images/business_portfolio.jpeg",
+      pdfpath:"https://drive.google.com/file/d/1PveLwbsppBvSx43kwKBtTJaPo2RoG57D/view?usp=sharing"
   },
 
   {
@@ -64,50 +73,9 @@ const Menu = [
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
-  },
+      preview:"/images/business_portfolio.jpeg",
+      pdfpath:"https://drive.google.com/file/d/1PveLwbsppBvSx43kwKBtTJaPo2RoG57D/view?usp=sharing"
 
-  {
-    id: 7,
-    image: "/images/screenshot.png",
-    name: "Construction-Free",
-    category: "Construction",
-    price: 0,
-    qty: 1,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
-  },
-
-  {
-    id: 8,
-    image: "/images/screenshot.png",
-    name: "Construction-Premium",
-    category: "Construction",
-    price: 150,
-    qty: 1,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
-  },
-
-  {
-    id: 9,
-    image: "/images/screenshot.png",
-    name: "Charity-Free",
-    category: "Charity",
-    price: 0,
-    qty: 1,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
-  },
-
-  {
-    id: 10,
-    image: "/images/screenshot.png",
-    name: "Charity-Premium",
-    category: "Charity",
-    price: 350,
-    qty: 1,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
   },
 ];
 

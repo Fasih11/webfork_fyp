@@ -19,8 +19,6 @@ const Product = () => {
             <button className="btn-group__item" onClick={()=> filterItem("Gym")}>Gym</button>
             <button className="btn-group__item" onClick={()=> filterItem("Ecommerce")}>Ecommerce</button>
             <button className="btn-group__item" onClick={()=> filterItem("Restaurant")}>Restaurant</button>
-            <button className="btn-group__item" onClick={()=> filterItem("Construction")}>Construction</button>
-            <button className="btn-group__item" onClick={()=> filterItem("Charity")}>Charity</button>
             <button className="btn-group__item" onClick={()=> setMenuData(Menu)} >All</button>
         </div>
     </nav>

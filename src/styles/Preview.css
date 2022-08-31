@@ -1,4 +1,7 @@
 #prv-img{
-    height: 900vh;
-    width: 100%;
+    margin-left: 450px;
+}
+
+#preview-btn{
+    margin-top: 100px;
 }
