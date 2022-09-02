@@ -26,7 +26,7 @@ const ChooseUs = () => {
         <div class="col-lg-4 col-sm-6">
           <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
             <h6>24 x 7 User Support</h6>
-            <p>If our customer has any problem and any query we are always happy to help then.</p>
+            <p>If our customer has any problem and any query we are always happy to help then. We are always availabe for our customers.</p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
@@ -38,7 +38,7 @@ const ChooseUs = () => {
         <div class="col-lg-4 col-sm-6">
           <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
             <h6>Market Strategy</h6>
-            <p>Holding back technology to preserve broken business models is like allowing blacksmiths to veto the internal combustion engine in order to protect their horseshoes.</p>
+            <p>A marketing strategy is a long-term plan for achieving a company's goals by understanding the needs of customers.</p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
