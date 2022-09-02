@@ -12,7 +12,7 @@ const Submit = () => {
         </h3>
     </div>
      <div class="form_container2">
-     <form target="_blank">
+     <form action='mailto:fasihmughal11@gmail.com' target="_blank">
        <div class="form-group">
          <label for="exampleInputName">Full Name</label>
          <input type="text" name="fullname" class="form-control" id="exampleInputName" placeholder="Enter Your Name" required="required"/>

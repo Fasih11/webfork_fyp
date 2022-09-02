@@ -14,27 +14,27 @@ const Menu = [
 
   {
     id: 2,
-    image: "/images/screenshot.png",  
+    image: "/images/paid_gym_card.jpeg",  
     name: "Gym-Premium",
     category: "Gym",
     price: 350,
     qty: 1,
     description:
       "This Gym Template is based on all the front-end needs of the users where user can see about the gym ",
-      preview:"/images/business_portfolio.jpeg",
+      preview:"/images/paid_gym.jpeg",
       pdfpath:"https://drive.google.com/file/d/1o8rNAZsA3ypF7HT-vGqhHjkZGwH72p-U/view?usp=sharing"
   },
 
   {
     id: 3,
-    image: "/images/screenshot_1.png",
+    image: "/images/free_ecommerce.jpeg",
     name: "Ecommerce-Free",
     category: "Ecommerce",
     price: 0,
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
-      preview:"/images/business_portfolio.jpeg",
+      preview:"/images/free_ecommerce.jpeg",
       pdfpath:"https://drive.google.com/file/d/1GVUetLIWf8OgkxbXTDTob_8795M3UK1D/view?usp=sharing"
   },
 
@@ -53,14 +53,14 @@ const Menu = [
 
   {
     id: 5,
-    image: "/images/screenshot_1.png",
+    image: "/images/free_cafe_card.jpeg",
     name: "Restaurant-Free",
     category: "Restaurant",
     price: 0,
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
-      preview:"/images/business_portfolio.jpeg",
+      preview:"/images/free_cafe_screenshot.png",
       pdfpath:"https://drive.google.com/file/d/1PveLwbsppBvSx43kwKBtTJaPo2RoG57D/view?usp=sharing"
   },
 
@@ -73,7 +73,7 @@ const Menu = [
     qty: 1,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde beatae fuga ipsa? Temporibus, asperiores!",
-      preview:"/images/business_portfolio.jpeg",
+      preview:"/images/premium_cafe",
       pdfpath:"https://drive.google.com/file/d/1PveLwbsppBvSx43kwKBtTJaPo2RoG57D/view?usp=sharing"
 
   },
